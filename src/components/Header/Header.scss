@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'CCDBolder';
+  src: local('CCDBolder'),
+    url('../../fonts/GTWalsheimPro-Medium.ttf') format('truetype');
+}
+
+
+
+.header-gas {
+  font-family: CCDBolder;
+    color: white;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 620px;
+    height: 30px;
+    margin: 0px auto;
+  }
+
+  .header-text{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    right: 4px;
+  }
+  
+  .header-content {
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 620px;
+    margin: 40px auto;
+  }
+  
+  .header-left {
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .close-button{
+    background-color: black;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s all ease-in-out;
+  }

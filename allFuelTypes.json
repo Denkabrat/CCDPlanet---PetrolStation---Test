@@ -1,0 +1,33 @@
+{
+  "allFuelTypes": [
+    {
+      "id": 1,
+      "name": "АИ 92",
+      "price": 42,
+      "color": "#ffb800",
+      "class": "yellow"
+    },
+    {
+      "id": 2,
+      "name": "АИ 95",
+      "price": 56,
+      "color": "#00dba6",
+      "class": "green"
+    },
+    {
+      "id": 3,
+      "name": "АИ 98",
+      "price": 69,
+      "color": "#e00000",
+      "class": "red"
+    },
+    {
+      "id": 4,
+      "name": "АИ 100",
+      "price": 104,
+      "color": "#bd00ff",
+      "class": "purple"
+    }
+  ],
+  "activeFuel": []
+}

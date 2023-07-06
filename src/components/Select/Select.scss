@@ -1,0 +1,152 @@
+.Select-wrapper{
+    margin: 0 auto;
+    display: flex;
+    width: 620px;
+    justify-content: space-between;
+}
+
+.main-range-fuel{
+    margin: 0 auto;
+    width: 300px;
+   display: flex;
+   position: relative;
+   right: 0px;
+   top: 61px;
+   flex-direction: row;
+}
+
+.fake-range-type-fuel{
+    height: 5px;
+    width: 48px;
+    background-color: #ffb800;
+    border-radius: 4px 0 0 4px;
+}
+
+.body-scale{
+    position: absolute;
+    left: 48px;
+    width: 252px;
+    background-color: #ffffff00;
+    border-radius: 0 4px 4px 0;
+}
+
+.fake-body-scale{
+    position: relative;
+    top: 1.5px;
+    height: 1px;
+    width: 252px;
+    background-color: #ffffff0f;
+    border-radius: 0 4px 4px 0;
+}
+
+.quantity-fuel-static{
+    margin: 0 auto;
+    position: relative;
+    right: 98px;
+    top: 20px;
+    color: black;
+    background-color: white;
+    border-radius: 6px;
+    width: 101px;
+    height: 19px;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.quantity-fuel-static-text{
+    width: 89px;
+    font-size: 10px;
+    position: relative;
+    padding: 4px 6px;
+    font-family: CCDBolder;
+}
+
+.head-scale{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 0px 4px rgba(0, 0, 0, 0.31);
+    -moz-box-shadow: 0px 0px 0px 4px rgba(0, 0, 0, 0.31);
+    box-shadow: 0px 0px 0px 4px rgba(0, 0, 0, 0.31);
+    outline: none;
+}
+
+.price_box{
+    width: 300px;
+    height: 89px;
+}
+
+.fuel-price-static{
+    position: relative;
+    top: 20px;
+    background-color: white;
+    border-radius: 6px;
+    width: 76px;
+    height: 19px;
+
+}
+
+.fuel-price-static-text{
+    color: black;
+    padding: 4px 6px;
+    font-size: 10px;
+    font-weight: 700;
+    font-family: CCDBolder;
+}
+
+.fuel-counter-button-wrapper{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 40px;
+}
+
+.fuel-price-counter{
+    color: white;
+    width: 140px;
+    height: 50px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.50);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-family: CCDBolder;
+}
+
+.fuel-button-pay{
+    cursor: pointer;
+    border-radius: 10px;
+    background: rgba(40, 180, 70, 0.50);
+    width: 140px;
+    height: 50px;
+    border: none;
+    gap: 10px;
+    color: white;
+    transition: 0.2s all ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover{
+         background: rgba(27, 125, 49, 0.5);
+    }
+}
+
+.fuel-pay-text{
+    font-size: 18px;
+    font-family: CCD;
+}
+
+.min-max-scale{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    position: relative;
+    top: 71px;
+    opacity: 0.25;
+    font-size: 12px;
+    height: 1px;
+}
